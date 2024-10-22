@@ -59,3 +59,39 @@ export function IconSearch() {
     </svg>
   );
 }
+
+export function IconMoreThan() {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="24"
+      height="24"
+      fill="none"
+      stroke="currentColor"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth="2"
+      viewBox="0 0 24 24"
+    >
+      <path d="M5 18l14-6L5 6"></path>
+    </svg>
+);
+}
+
+export function IconLessThan() {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="24"
+      height="24"
+      fill="none"
+      stroke="currentColor"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth="2"
+      viewBox="0 0 24 24"
+    >
+      <path d="M19 18L5 12l14-6"></path>
+    </svg>
+  );
+}
