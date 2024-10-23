@@ -23,7 +23,6 @@ export function ExclusiveLandingPage() {
     }
   }
   
-  
   useEffect(() => {
     if (properties.length > 0) {
       const propertiesExclusive = properties.slice(0, 6);
@@ -40,7 +39,6 @@ export function ExclusiveLandingPage() {
         {
           propertiesExclusiveRender.map(({ exteriorImage, id, name, bedrooms, squareFeet, price }) => {
             return (
-              <>
                 <ExclusiveHouse 
                   exteriorImage={exteriorImage}
                   id={id}
@@ -50,7 +48,6 @@ export function ExclusiveLandingPage() {
                   price={price}
                   key={id}
                 />
-              </>
             )
           })
         }
