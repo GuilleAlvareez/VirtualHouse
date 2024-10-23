@@ -8,7 +8,8 @@ module.exports = {
       colors: {
         azulLogo: "#34b38a",
         azulLogoOscuro: "#1e7d60",
-        grisClaro: '#393e46'
+        grisOscuro: '#393e46',
+        grisClaro: '#505762'
       }
     },
   },

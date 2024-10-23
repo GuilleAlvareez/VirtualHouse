@@ -35,7 +35,6 @@ export function ExclusiveLandingPage() {
       <h1 className="text-grisClaro font-bold text-3xl p-6">Casas Exclusivas de VirtualHouse</h1>
       
       <article className="h-72 relative grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-1">
-        <div className="absolute top-0 left-0 h-full w-full bg-black opacity-50 z-10"></div>
         {
           propertiesExclusiveRender.map(({ exteriorImage, id, name, bedrooms, squareFeet, price }) => {
             return (

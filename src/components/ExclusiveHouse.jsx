@@ -5,6 +5,7 @@ export function ExclusiveHouse({ exteriorImage, id, name, bedrooms, squareFeet, 
     //Dar estilos a los elementos de la casa y ponerlos en medio de las fotos 
     //Descargar svg para las habitaciones que sea una cama y para el de los metro cuadrados
     <div className="relative flex flex-col justify-center items-center">
+      <div className="absolute top-0 left-0 h-full w-full bg-black opacity-50 z-10"></div>
       <img
         src={exteriorImage}
         alt={`Casa ${id}`}
