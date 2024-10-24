@@ -9,7 +9,13 @@ module.exports = {
         azulLogo: "#34b38a",
         azulLogoOscuro: "#1e7d60",
         grisOscuro: '#393e46',
-        grisClaro: '#505762'
+        grisClaro: '#4c4c4c',
+        grisLetraFooter: '#c4c4c4',
+        lineaFooter: '#6c6c6c',
+        propietario: '#d4d4d4',
+        name: '#767676',
+        testimonioColor: '#bebebe',
+        colorTipo: '#9d9d9d'
       }
     },
   },
