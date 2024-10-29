@@ -2,7 +2,7 @@ import { IconLocation, IconSearch } from './Icons'
 
 export function NavLandingPage() {
     return (
-      <article className="relative h-4/6 w-full">
+      <article className="relative h-4/6 w-full mt-16">
         <img
           src="/imageBackground.png"
           alt="background Image"
