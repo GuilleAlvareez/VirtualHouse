@@ -4,7 +4,7 @@ export function NavLandingPage() {
     return (
       <article className="relative h-4/6 w-full">
         <img
-          src="../public/imageBackground.png"
+          src="/imageBackground.png"
           alt="background Image"
           className="w-full h-auto object-cover max-w-[550px]:w-full max-w-[550px]:h1/3"
         />
