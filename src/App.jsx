@@ -1,23 +1,22 @@
-import { ExclusiveLandingPage } from './components/ExclusiveLandingPage.jsx'
-import { Header } from './components/Header'
-import { NavLandingPage } from './components/NavLandingPage.jsx'
-import { PropertiesProvider } from './contexts/Properties.jsx'
-import { Footer } from './components/Footer.jsx'
-import { ReviewLanding } from './components/ReviewsLanding.jsx'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { Home } from './pages/Home.jsx'
+import { Header } from './components/Header.jsx'
+import { Buy } from './pages/Buy.jsx'
+import { Contact } from './pages/Contact.jsx'
+import { Login } from './pages/Login.jsx'
 
 function App() {
 
   return (
-    <PropertiesProvider>
-      <Header/>
+      <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/buy" element={<Buy />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/login" element={<Login />} />
+      </Routes>
+    </BrowserRouter>
 
-      <main className='flex flex-col w-full h-auto'>
-        <NavLandingPage/>
-        <ExclusiveLandingPage/>
-        <ReviewLanding/>
-        <Footer/>
-      </main>
-    </PropertiesProvider>
   )
 }
 

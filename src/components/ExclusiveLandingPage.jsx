@@ -36,19 +36,19 @@ export function ExclusiveLandingPage() {
       
       <article className="h-72 relative grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-1">
         {
-          propertiesExclusiveRender.map(({ exteriorImage, id, name, bedrooms, squareFeet, price }) => {
-            return (
-                <ExclusiveHouse 
-                  exteriorImage={exteriorImage}
-                  id={id}
-                  name={name}
-                  bedrooms={bedrooms}
-                  squareFeet={squareFeet}
-                  price={price}
-                  key={id}
-                />
-            )
-          })
+            propertiesExclusiveRender.map(({ exteriorImage, id, name, bedrooms, squareFeet, price }) => {
+              return (
+                  <ExclusiveHouse 
+                    exteriorImage={exteriorImage}
+                    id={id}
+                    name={name}
+                    bedrooms={bedrooms}
+                    squareFeet={squareFeet}
+                    price={price}
+                    key={id}
+                  />
+              )
+            })
         }
 
         <button onClick={handleButtonMinus} className="w-8 h-10 flex justify-center items-center absolute top-1/2 left-0 transform -translate-y-1/2 z-40 bg-white rounded-tr-lg rounded-br-lg">

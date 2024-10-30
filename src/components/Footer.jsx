@@ -25,7 +25,7 @@ export function Footer() {
                         {
                             cities.map((city) => {
                                 return (
-                                    <label className="mr-9 text-grisLetraFooter">{city}</label>
+                                    <label className="mr-9 text-grisLetraFooter" key={city}>{city}</label>
                                 )
                             })
                         }
