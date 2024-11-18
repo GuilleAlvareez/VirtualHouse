@@ -3,13 +3,13 @@ import { IconPhone, IconIG } from "./Icons";
 
 export function Footer() {
     const handleIG = () => {
-        window.open('https://www.instagram.com/guille_alvareez/')
+        window.open('https://www.instagram.com/virtualhouseinc/?igsh=MXNvbnJxNnN5dWQzNw%3D%3D')
     }
     return (
         <>
             <section className="bg-grisClaro text-white">
                 <article className="flex flex-row justify-between items-center px-20 pt-5 mb-2">
-                    <label className="flex flex-row items-center justify-center font-bold text-2xl gap-3"><IconPhone/>651150308</label>
+                    <label className="flex flex-row items-center justify-center font-bold text-2xl gap-3"><IconPhone/>652935837</label>
                     
                     <div className="flex flex-row items-center justify-center gap-3">
                         <label>Siguenos en: </label>
